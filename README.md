@@ -172,9 +172,7 @@ Your backend and frontend are now running together.
 
 # TraceIt ✨ - Learn Alphabets by Tracing
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Mohammedsanin/Talkeasy/main/apps/traceit/public/logo.svg" alt="TraceIt Logo" width="120">
-</p>
+ ![traceit Dashboard](./public/traceit-dashboard.jpg)
 
 <h2 align="center">A fun, interactive, and AI-powered way to learn new alphabets.</h2>
 
