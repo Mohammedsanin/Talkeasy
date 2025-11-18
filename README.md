@@ -170,6 +170,95 @@ OR
 - **Node Package Modules** – Installed per folder  
 Your backend and frontend are now running together.
 
+# TraceIt ✨ - Learn Alphabets by Tracing
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Mohammedsanin/Talkeasy/main/apps/traceit/public/logo.svg" alt="TraceIt Logo" width="120">
+</p>
+
+<h2 align="center">A fun, interactive, and AI-powered way to learn new alphabets.</h2>
+
+<p align="center">
+  <strong>TraceIt</strong> is a web application designed to help users learn the alphabets of various languages by tracing them on a digital canvas. As a subset of the larger <strong>Talkeasy</strong> language-learning ecosystem, TraceIt provides real-time feedback using generative AI to make learning effective and engaging.
+</p>
+
+---
+
+## 🚀 Features
+
+-   *Multi-Language Support*: Practice alphabets from a growing list of languages, including English, Hindi, Malayalam, and more.
+-   *Interactive Tracing Canvas*: A smooth and responsive canvas to practice drawing each character.
+-   *AI-Powered Feedback*: Get instant feedback on your tracing accuracy and speed, with personalized tips for improvement powered by Google's Gemini models through Genkit.
+-   *Adaptive Difficulty*: The tracing challenge adapts to your skill level, ensuring a continuously engaging learning curve.
+-   *Character Pronunciation*: Hear the correct pronunciation of each alphabet with Text-to-Speech synthesis.
+-   *Progress Tracking*: Your best score for each character is saved locally, so you can track your mastery.
+-   *Personalized Suggestions*: Receive AI-powered suggestions for new languages to explore based on your interests.
+-   *Modern & Responsive UI*: A clean, beautiful interface built with ShadCN UI and Tailwind CSS that works on all devices.
+
+## 🛠 Tech Stack
+
+-   *Framework*: [Next.js](https://nextjs.org/) (App Router)
+-   *AI Integration*: [Firebase Genkit](https://firebase.google.com/docs/genkit) with [Google Gemini](https://deepmind.google/technologies/gemini/)
+-   *Styling*: [Tailwind CSS](https://tailwindcss.com/)
+-   *UI Components*: [ShadCN UI](https://ui.shadcn.com/)
+-   *Deployment*: Ready for deployment on any modern hosting provider like Vercel or Firebase App Hosting.
+
+## 🏁 Getting Started
+
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+
+-   [Node.js](https://nodejs.org/en/) (v18 or later)
+-   [Git](https://git-scm.com/)
+
+### Installation
+
+1.  *Clone the repository:*
+    bash
+    git clone https://github.com/Mohammedsanin/Talkeasy.git
+    cd Talkeasy
+    
+
+2.  *Install dependencies:*
+    Navigate to the project directory and install the necessary packages using npm.
+    bash
+    npm install
+    
+
+3.  *Set up Environment Variables:*
+    Create a new file named .env in the root of the project and add your Google AI API key. You can get a key from [Google AI Studio](https://aistudio.google.com/app/apikey).
+
+    env
+    # .env
+    GEMINI_API_KEY=YOUR_API_KEY_HERE
+    
+
+4.  *Run the Development Server:*
+    Start the Next.js development server.
+    bash
+    npm run dev
+    
+
+5.  *Open the application:*
+    Open your browser and navigate to [http://localhost:9002](http://localhost:9002) to see the application running.
+
+## 📂 Project Structure
+
+-   src/app/: Contains the main pages and routes of the application.
+-   src/components/: Reusable React components, including UI components from ShadCN.
+-   src/ai/: Home for all AI-related logic.
+    -   flows/: Genkit flows that define the core AI features.
+    -   genkit.ts: Genkit configuration file.
+-   src/lib/: Contains data (ALPHABET_DATA), utility functions, and local storage logic.
+-   public/: Static assets like images and fonts.
+
+---
+
+<p align="center">
+  Made with ❤ for the love of languages.
+</p>
+
 
 Open [http://localhost:9002](http://localhost:9002) with your browser to see the result. You can start editing the page by modifying `src/app/page.tsx`.
 
