@@ -74,6 +74,101 @@ You can now start the development server.
 npm run dev
 ```
 
+# 🧍‍♀ 3D Model Details
+
+project includes a female virtual assistant 3D model in .glb format.
+Here are the details of the model included:
+
+🎨 Model Description
+
+Format: GLB (GLTF Binary)
+
+Character Type: Female virtual assistant / avatar
+
+Clothing: White shirt, dark grey pants
+
+Style: Cartoon / semi-realistic
+
+Rigged: Yes (body rig available)
+
+Facial Features: Eyes, eyebrows, mouth, ready for animation
+
+Rendering: Fully compatible with Three.js GLTFLoader
+
+🧩 Model Usage in Project
+
+Loaded in the frontend using GLTFLoader
+
+Rendered with Three.js inside a WebGL canvas
+
+Used for displaying responses during TTS/STT
+
+
+---
+
+## 📌 Step 1 — Run the Backend
+Open a terminal and run:
+```bash
+cd backend
+npm install
+npm run dev
+```
+The backend server will start.
+
+---
+
+## 📌 Step 2 — Run the TTS Frontend
+Open a **new terminal** and run:
+```bash
+cd tts/frontend
+npm install
+npm run dev
+```
+This starts the frontend (3D model + TTS/STT interface).
+
+---
+
+### ✔️ That’s it.
+Your backend and frontend are now running together.
+
+---
+
+## 🧰 Technical Stack Used
+Below is the complete list of technologies used in your project:
+
+### **Backend**
+- **Node.js** – JavaScript runtime
+- **Express.js** – Backend server framework
+- **REST API** – Communication between frontend and backend
+- **npm** – Package manager
+
+### **Frontend (TTS App + 3D Model)**
+- **Vite / React or Plain JS** (depending on your setup)
+- **Three.js** – Rendering the 3D avatar
+- **GLTFLoader** – Loading the `.glb` model
+- **HTML / CSS / JavaScript** – UI structure and styling
+
+### **TTS (Text-to-Speech)**
+Your project uses one of the following:
+- **Web Speech Synthesis API** (browser-based TTS)
+OR
+- **OpenAI TTS API** (if configured in backend)
+OR
+- **Google gTTS** (if using Python in earlier versions)
+
+### **STT (Speech-to-Text)**
+Your project uses:
+- **Web Speech Recognition API** (browser microphone → text)
+OR
+- **OpenAI Whisper API** (if configured)
+
+### **Other Tools**
+- **VS Code** – Recommended editor
+- **Local Development Server** – Runs using `npm run dev`
+- **Node Package Modules** – Installed per folder  
+Your backend and frontend are now running together.
+
+
 Open [http://localhost:9002](http://localhost:9002) with your browser to see the result. You can start editing the page by modifying `src/app/page.tsx`.
 
 ## 📜 License
