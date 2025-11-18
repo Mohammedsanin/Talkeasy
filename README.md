@@ -79,7 +79,7 @@ npm run dev
 project includes a female virtual assistant 3D model in .glb format.
 Here are the details of the model included:
 
-![Ar Dashboard](./public/ardashboard.jpg)
+![Ar Dashboard](./public/ar-dashboard.jpg)
 
 🎨 Model Description
 
