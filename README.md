@@ -111,7 +111,7 @@ Used for displaying responses during TTS/STT
 ## 📌 Step 1 — Run the Backend
 Open a terminal and run:
 ```bash
-cd backend
+cd nurse-backend
 npm install
 npm run dev
 ```
@@ -122,7 +122,7 @@ The backend server will start.
 ## 📌 Step 2 — Run the TTS Frontend
 Open a **new terminal** and run:
 ```bash
-cd tts/frontend
+cd nurse-frontend
 npm install
 npm run dev
 ```
